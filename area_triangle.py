@@ -3,7 +3,7 @@
 # Created by: Lily Carroll
 # Created on: Nov/27/2023
 # This program will calculate the area of a triangle.
-
+# Importing math module.
 import math
 
 
@@ -19,6 +19,9 @@ def calc_area(base, height):
 
 # Using my main() function to get user input and call my calc_area function.
 def main():
+    # Explaining my program to the user.
+    print("This program will calculate the area of a triangle.\n")
+
     # Getting user input.
     base_from_user = input("Enter a base for your triangle as a decimal in cm: ")
     height_from_user = input("Enter a height for your triangle as a decimal in cm: ")
